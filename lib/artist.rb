@@ -15,7 +15,7 @@ class Artist
   end
 
   def genres
-    song.map{&: genre}
+    songs.map{&: genre}
   end
 
   def new_song(name, genre)
