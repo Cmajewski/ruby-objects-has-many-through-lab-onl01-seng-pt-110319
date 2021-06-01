@@ -16,6 +16,6 @@ class Artist
     song.genre=genre
     song.artist=self
   end
-  
+
 
 end
