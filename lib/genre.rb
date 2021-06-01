@@ -1,7 +1,7 @@
 class Genre
   attr_accessor :name
   @@all=[]
-  
+
   def initialize(name)
     @name=name
   end
@@ -11,5 +11,6 @@ class Genre
   end
 
   def self.all
+    @@all
   end
 end
