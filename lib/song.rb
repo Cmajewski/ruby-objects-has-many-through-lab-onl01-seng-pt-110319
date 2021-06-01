@@ -5,6 +5,8 @@ class Song
 
   def initialize (title,artist,genre)
     @name=name
+    @artist=artist
+    @genre=genre
     @@all<<self
   end
 
